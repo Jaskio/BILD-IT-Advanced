@@ -5,14 +5,14 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.LinkedHashSet;
+import java.util.HashSet;
 import java.util.Set;
 
 public class SaveLoadFile_06 {
 	String listener;
 	String observableString;
 	String filePath = "d:\\blacklist.dat";
-	Set<String> set = new LinkedHashSet<>();
+	Set<String> set = new HashSet<>();
 	
 	
 	Set<String> getSet() {
